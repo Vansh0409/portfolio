@@ -9,7 +9,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
         <a class="navbar-brand" href="#">Vansh Agrawal</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -26,38 +27,33 @@
         </div>
     </nav>
 
-    <header class="hero-section">
-        <div class="container text-center">
-            <h1>Let's grow your business from the inside out.</h1>
-            <p class="lead">Computer Science Student | Developer | Competitive Programmer</p>
-            <a href="#quiz" class="btn btn-primary mt-3">Take the Quiz</a>
-        </div>
-    </header>
-
-    <section id="about" class="about-section">
+    <!-- Hero Section
+    <header class="hero-section d-flex align-items-center justify-content-center text-center" id="home">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-md-6 text-center">
-                    <img src="profile.jpeg" alt="Vansh Agrawal" class="square img-fluid">
-                </div>
-                <div class="col-md-6">
-                    <h2>About Me</h2>
-                    <p>Hi! I'm Vansh Agrawal, a passionate Computer Science student at BITS Pilani. With a love for technology and innovation, I specialize in creating efficient and scalable solutions using various programming languages and frameworks.</p>
-                </div>
-            </div>
+            <h1>Love for technology and innovation</h1>
+            <p class="lead">Computer Science Student | Finance Minor Degree | Developer | Competitive Programmer</p>
+        </div>
+    </header> -->
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center" style="margin-top: 20px;">
+        <div class="container">
+            <img src="profile.jpeg" alt="Vansh Agrawal" class="rounded-circle img-fluid" width="200" height="200">
+            <h2>About Me</h2>
+            <p>Hi! I'm Vansh Agrawal, a passionate Computer Science student at BITS Pilani. With a love for technology and innovation, I specialize in creating efficient and scalable solutions using various programming languages and frameworks.</p>
         </div>
     </section>
-    
 
-    <section id="education" class="education-section">
+    <!-- Education Section -->
+    <section id="education" class="education-section text-center">
         <div class="container">
-            <h2 class="text-center mb-5">Education</h2>
+            <h2>Education</h2>
             <div class="row">
                 <div class="col-md-6 mb-4">
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Bachelors of Engineering in Computer Science</h5>
-                            <p class="card-text">Birla Institute of Technology and Science (BITS) Pilani - Pilani Campus, CGPA - 8.72</p>
+                            <p class="card-text">Birla Institute of Technology and Science (BITS) Pilani - Pilani Campus, CGPA - 8.66</p>
                             <p class="card-text"><small class="text-muted">10/2021 – present, Rajasthan</small></p>
                             <p class="card-text">Relevant Courses: Computer Programming, DSA, DBMS, OOP, Logic in CS, Computer Architecture, Fundamentals of Finance and Accounting, PnS, Theory of Computation, PPL, Business Analysis and Valuation, Security Analysis and Portfolio Management, Computer Networks, Compiler Construction.</p>
                         </div>
@@ -66,9 +62,10 @@
                 <div class="col-md-6 mb-4">
                     <div class="card">
                         <div class="card-body">
-                            <h5 class="card-title">Higher Secondary Education (HSc - 12th)</h5>
-                            <p class="card-text">S S Divine School, Ahmedabad - 87.69%</p>
-                            <p class="card-text"><small class="text-muted">04/2020 – 04/2021</small></p>
+                            <h5 class="card-title">Finance Minor Degree</h5>
+                            <p class="card-text">Birla Institute of Technology and Science (BITS) Pilani - Pilani Campus, CGPA - 8.8</p>
+                            <p class="card-text"><small class="text-muted">08/2022 – present, Rajasthan</small></p>
+                            <p class="card-text">Relevant Courses: Fundamentals of Finance and Accounting, Financial Management, Security and Portfolio Management, Business Analysis and Valuation, Derivatives and Risk Management.</p>
                         </div>
                     </div>
                 </div>
@@ -76,9 +73,10 @@
         </div>
     </section>
 
-    <section id="experience" class="experience-section">
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section text-center">
         <div class="container">
-            <h2 class="text-center mb-5">Professional Experience</h2>
+            <h2>Professional Experience</h2>
             <div class="row">
                 <div class="col-md-12 mb-4">
                     <div class="card">
@@ -96,9 +94,10 @@
         </div>
     </section>
 
-    <section id="projects" class="projects-section">
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section text-center">
         <div class="container">
-            <h2 class="text-center mb-5">Projects</h2>
+            <h2>Projects</h2>
             <div class="row">
                 <div class="col-md-4 mb-4">
                     <div class="card">
@@ -128,9 +127,10 @@
         </div>
     </section>
 
-    <section id="skills" class="skills-section">
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section text-center">
         <div class="container">
-            <h2 class="text-center mb-5">Technical Skills</h2>
+            <h2>Technical Skills</h2>
             <div class="row">
                 <div class="col-md-6">
                     <ul>
@@ -148,9 +148,10 @@
         </div>
     </section>
 
-    <section id="contact" class="contact-section">
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section text-center">
         <div class="container">
-            <h2 class="text-center mb-5">Contact Me</h2>
+            <h2>Contact Me</h2>
             <form id="contact-form">
                 <div class="form-row">
                     <div class="form-group col-md-6">
@@ -172,10 +173,13 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer class="bg-dark text-white text-center py-3">
         <p>&copy; 2024 Vansh Agrawal</p>
+        <a href="#" class="back-to-top text-white"><i class="fas fa-chevron-up"></i></a>
     </footer>
 
+    <!-- JavaScript -->
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
@@ -193,6 +197,44 @@
                 }, function(error) {
                     $("#form-message").text("Failed to send message. Please try again.").css("color", "red");
                 });
+        });
+
+        // Smooth scrolling
+        $(".nav-link").click(function(event) {
+            if (this.hash !== "") {
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+                    window.location.hash = hash;
+                });
+            }
+        });
+
+        // Scroll animations
+        $(window).scroll(function() {
+            $('.card').each(function() {
+                var bottom_of_element = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                if (bottom_of_window > bottom_of_element) {
+                    $(this).addClass('animate__animated animate__fadeInUp');
+                }
+            });
+        });
+
+        // Back to top button
+        $(window).scroll(function() {
+            if ($(this).scrollTop() > 100) {
+                $('.back-to-top').fadeIn();
+            } else {
+                $('.back-to-top').fadeOut();
+            }
+        });
+
+        $('.back-to-top').click(function() {
+            $('html, body').animate({scrollTop: 0}, 800);
+            return false;
         });
     </script>
 </body>
